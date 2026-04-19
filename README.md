@@ -21,3 +21,6 @@
 5. Ben Shelton
 
    known for his powerful serve and energetic playing style
+
+
+![Bereit für den nächsten](bereit-fuer-den-naechsten.webp)
