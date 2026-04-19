@@ -16,3 +16,9 @@ print("O         O")
 print(" OO     OO ")
 
 print("   OOOOO   ")
+
+'''
+I wanted to make something related to my passion for playing tennis.
+I managed to mage it look like a ball, although it could be improved to resemble a real tennis ball more closely.
+Overall, creating ASCII art for the first time was an interesting and enjoayble experience.
+'''
