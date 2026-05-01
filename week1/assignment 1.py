@@ -1,0 +1,1 @@
+print ("tech basics I")
