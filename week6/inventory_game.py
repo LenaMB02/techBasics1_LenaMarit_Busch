@@ -1,7 +1,7 @@
 # --- Game State ---
 
 inventory = []
-# added tennis items here. Total length is 6 (1 more than max inventory size)
+# added tennis items here. Total length is 6 (1 more than max inventory size (5)
 items_in_room = [
     {"name": "Racket", "type": "equipment", "description": "A brand new Head tennis racket."},
     {"name": "tennisballs", "type": "equipment", "description": "A can of 4 tennis balls."},
