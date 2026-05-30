@@ -161,7 +161,7 @@ def end_game_and_save(final_score):
     print("\n--- LEADERBOARD ---")
     counter = 1
     for record in all_records:
-        if counter > 5:  # cap the leaderboard display to only show the Top 5 players
+        if counter > 5:  # cap the leaderboard display to only show the top 5 players
             break
         print(str(counter) + ". " + record[0] + " - " + record[1] + " - Actions: " + record[2])
         counter += 1
@@ -180,7 +180,7 @@ def game_loop():
         end_game_and_save(placeholder_score) # jumps to the saving system
         return  # exits the loop immediately
 
-    # print welcome messages and state the win scenaio to the player
+    # print welcome messages and state the win scenario to the player
     print("Welcome to the Tennis Shop Game!")
     print("Goal: Get a Racket, Tennisballs, and use your card to checkout.")
     print("Type 'help' for a list of commands.")
