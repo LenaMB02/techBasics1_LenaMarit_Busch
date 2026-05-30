@@ -105,7 +105,7 @@ def use(item_name):
 
 def examine(item_name):
     # you can only examine an item if it's in your inventory or if it's in the room
-    # using .get() to avoid mistakes
+    # using .get() to avoid mistake
     for item in inventory + items_in_room:
         if item["name"].lower() == item_name.lower():
             print("[" + item["name"] + "]: " + item.get("description", "No description available."))
