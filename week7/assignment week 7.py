@@ -46,7 +46,7 @@ def show_room_items():
             print("- " + item["name"] + " (" + item["type"] + ")")
 
 def pick_up(item_name):
-    # check if the player has reached the max inventory size limit
+    # check if the player has reached max inventory size limit
     if len(inventory) >= MAX_INVENTORY_SIZE:
         print("Your cart is full! Drop something first.")
         return
