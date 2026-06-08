@@ -98,7 +98,7 @@ while status:
         if i.type == pygame.QUIT:
             status = False
 
-    # 1. Fill the screen background (White colour)
+    # 1. Fill the screen background (white colour)
     scrn.fill((255, 255, 255))
 
     # 2. Iterate through the object list to update position and paint them
