@@ -81,11 +81,11 @@ Today we are going to learn what are actually happening behind the scene.
 
 `git status` show modified files in your working directory
 
-`git add [file]` add a file to your next commit
+`git add [file]` add a file to your next commit. For multiple files, separate file names with space.
 
 `git add -A` add all changes to your next commit
 
-`git commit [file] -m "[message]"` commit your staged content
+`git commit [file] -m "[message]"` commit your staged content. For multiple files, separate file names with space.
 
 `git log` check your commit history
 
