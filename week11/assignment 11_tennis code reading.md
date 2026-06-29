@@ -65,6 +65,6 @@ Realizing this design intent was super helpful because it made me notice how imp
 
 ---
 
-Extra notes
+Extra notes:
 
 This file is relevant for me and my project because my calculator will also need to compare scores and results and map them to dynamic outcomes.
