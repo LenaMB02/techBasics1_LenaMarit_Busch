@@ -54,9 +54,7 @@ I plan to do the same thing for my LK-calculator to directly link player data wi
 
 ---
 
-5. What parts of the code were confusing or difficult at the beginning to understand?
-- Were you able to understand what it is doing after your own research?
-
+5. What parts of the code were confusing or difficult at the beginning to understand? Were you able to understand what it is doing after your own research?
 
 At first, the code was quite confusing for me because it relies on extremely often repetitive if-conditions. 
 Instead of using "elif" or "else", it just places countless individual if-statements right after one another, 
@@ -64,8 +62,9 @@ and the won_point() method strangely checks for the hardcoded text string "playe
 However, after researching a bit about the repository itself and the functions, I found out that this is a so-called "Refactoring Kata." 
 I think it means the code was intentionally written in a messy and repetitive way so that other programmers (maybe students) can practice cleaning/organizing it.
 Realizing this design intent was super helpful because it made me notice how important it is to keep code compact and avoid repeating yourself all the time.
+
 ---
 
 Extra notes
 
-# this file is relevant for me and my project because my calculator will also need to compare scores and results and map them to dynamic outcomes.
+This file is relevant for me and my project because my calculator will also need to compare scores and results and map them to dynamic outcomes.
