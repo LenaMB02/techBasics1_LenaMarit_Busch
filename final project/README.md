@@ -17,3 +17,11 @@ Additionally, it features a local browser-cookie database to save player profile
    
    ```bash
    streamlit run app.py
+   
+---
+
+## Project Structure & Backend Math
+
+The application is split into two logical parts to maintain clean coding habits and clear separation of concerns:
+* **`calculator.py` (Backend Logic):** Contains the official mathematical formulas from the German Tennis Federation (DTB). It calculates the hurdle, the match points, the match-type modifier, and applies the optional weekly decay.
+* **`app.py` (Frontend UI):** Handles the user inputs, triggers the calculations, validates entries (limiting inputs from 1.0 to 25.0), and manages the visual output.
