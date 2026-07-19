@@ -6,7 +6,7 @@ Additionally, it features a local JSON-based database to save player profiles an
 
 ---
 
-## Installation & Setup
+## ⚙️ Installation & Setup
 
 1. **Install Requirements:**
    Install all necessary libraries using the requirements file:
@@ -20,7 +20,7 @@ Additionally, it features a local JSON-based database to save player profiles an
    
 ---
 
-## Project Structure & Backend Math
+## 🧮 Project Structure & Backend Math
 
 The application is split into two logical parts to maintain clean coding habits and clear separation of concerns:
 * **`calculator.py` (Backend Logic):** Contains the official mathematical formulas from the German Tennis Federation (DTB). It calculates the hurdle, the match points, the match-type modifier, and applies the optional weekly decay.
@@ -28,7 +28,7 @@ The application is split into two logical parts to maintain clean coding habits 
 
 ---
 
-## UI Design & Enhanced Features
+## 🎨 UI Design & Enhanced Features
 
 To make the app look unique and user-friendly, I added some custom design elements and backend improvements:
 * **Clay-Court Design:** I used custom CSS snippets to overwrite the default Streamlit theme, giving the app a fresh tennis-inspired look with clay-court orange and white accents.
