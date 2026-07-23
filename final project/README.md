@@ -34,3 +34,18 @@ To make the app look unique and user-friendly, I added some custom design elemen
 * **Clay-Court Design:** I used custom CSS snippets to overwrite the default Streamlit theme, giving the app a fresh tennis-inspired look with clay-court orange and white accents.
 * **Interactive Player Profiles:** Users can easily create custom profiles. The app dynamically loads and displays their current LK level and calculation history.
 * **Local Data Persistence (JSON):** Instead of losing all data after a session restart, I implemented a local `player_profile.json` database. This ensures that all saved players and their calculation histories are safely stored and reloaded automatically.
+
+---
+
+## ⛓️ AI Usage & Technical Challenges
+
+### Artificial Intelligence Collaboration
+Throughout the development of my project, AI tools were strictly used as an educational assistant and pair-programming partner.
+
+* **Mathematical Precision:** I consulted AI to help translate the complex DTB (Deutscher Tennis Bund) rating formulas into clean and structured Python functions.
+* **Custom CSS Styling:** Standard Streamlit options for UI customization are quite limited. I used AI to understand how raw CSS injection works via `st.markdown`, then manually adapted the styling to create the Clay-Court theme.
+* **Code Review & Debugging:** AI was utilized to review code structures against clean code standards and talk through edge cases, ensuring I completely understood the underlying concepts.
+
+### Technical Challenges & Solutions
+* **Streamlit State Management:** Managing dynamic UI updates when switching between player profiles proved tricky due to Streamlit's execution model. I resolved this by deeply diving into `st.session_state` to ensure smooth transitions without losing user inputs.
+* **Persistent Storage & File Handling:** Moving away from temporary runtime data to a local `player_profile.json` structure introduced edge-case risks (e.g., app crashes if the file was corrupted or missing). I implemented a robust `try-except` initialization flow to handle initial startups safely.
