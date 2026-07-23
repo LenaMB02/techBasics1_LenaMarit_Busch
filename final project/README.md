@@ -49,3 +49,4 @@ Throughout the development of my project, AI tools were strictly used as an educ
 ### Technical Challenges & Solutions
 * **Streamlit State Management:** Managing dynamic UI updates when switching between player profiles proved tricky due to Streamlit's execution model. I resolved this by deeply diving into `st.session_state` to ensure smooth transitions without losing user inputs.
 * **Persistent Storage & File Handling:** Moving away from temporary runtime data to a local `player_profile.json` structure introduced edge-case risks (e.g., app crashes if the file was corrupted or missing). I implemented a robust `try-except` initialization flow to handle initial startups safely.
+* **Repository Documentation:** I dedicated some extra effort to researching and applying advanced GitHub Markdown techniques focusing on visual hierarchy, clear structure, badges, and clean layouts to make the project documentation visually appealing and easy to navigate.
